@@ -20,3 +20,11 @@ const isWeekend = (day: WeekDay): boolean => {
     return false;
   }
 };
+// let isWeekend: (arg: WeekDay) => boolean;
+// isWeekend = (day) => {
+//   if (day === WeekDay.Saturday || day === WeekDay.Sunday) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
