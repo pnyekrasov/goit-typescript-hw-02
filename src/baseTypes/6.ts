@@ -8,7 +8,7 @@ function showMessage(message: string): void {
 
 type ComplexType = string | number;
 
-function calc(num1: ComplexType, num2: ComplexType) {
+function calc(num1: ComplexType, num2: ComplexType): ComplexType {
   if (typeof num1 === "number" && typeof num2 === "number") {
     return num1 + num2;
   } else {

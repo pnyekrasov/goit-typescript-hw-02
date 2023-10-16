@@ -2,12 +2,16 @@
   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 */
 
-interface PageProps {
+interface T {
   title: string;
 }
 
+// type T = {
+//   title: string;
+// };
+
 class Component {
-  constructor(public props: PageProps) {}
+  constructor(public props: T) {}
 }
 
 class Page extends Component {
